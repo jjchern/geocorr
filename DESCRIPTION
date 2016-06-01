@@ -1,0 +1,14 @@
+Package: geocorr
+Title: Geographic Crosswalk Files
+Version: 0.0.0.9000
+Authors@R: 'JJ Chen <jiajia.chern@gmail.com> [aut, cre]'
+Description: An R data package for a set of geographic crosswalk files generated from
+    the Missouri Census Data Center's Geographic Correspondence Engine: MABLE/Geocorr14.
+Depends:
+    R (>= 3.2.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/jjchern/geocorr
+BugReports: https://github.com/jjchern/geocorr/issues
+RoxygenNote: 5.0.1
