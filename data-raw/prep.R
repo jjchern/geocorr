@@ -12,10 +12,18 @@ labelled::var_label(county2014_to_puma2000) = readr::read_csv("data-raw/county20
 county2014_to_puma2012 = readr::read_csv("data-raw/county2014_to_puma2012.csv")[-1,]
 labelled::var_label(county2014_to_puma2012) = readr::read_csv("data-raw/county2014_to_puma2012.csv")[1,]
 
+county2010_to_puma2000_pop14 = readr::read_csv("data-raw/county2010_to_puma2000_pop14.csv")[-1,]
+labelled::var_label(county2010_to_puma2000_pop14) = readr::read_csv("data-raw/county2010_to_puma2000_pop14.csv")[1,]
+
+county2010_to_puma2012_pop14 = readr::read_csv("data-raw/county2010_to_puma2012_pop14.csv")[-1,]
+labelled::var_label(county2010_to_puma2012_pop14) = readr::read_csv("data-raw/county2010_to_puma2012_pop14.csv")[1,]
+
 devtools::use_data(
         county2010_to_puma2000,
         county2010_to_puma2012,
         county2014_to_puma2000,
         county2014_to_puma2012,
+        county2010_to_puma2000_pop14,
+        county2010_to_puma2012_pop14,
         overwrite = TRUE
 )
