@@ -98,6 +98,38 @@ geocorr::county2014_to_puma2012
 #> 10    01071    01  00400    AL    Jackson AL
 #> # ... with 4,535 more rows, and 6 more variables: PUMAname <chr>,
 #> #   intptlon <chr>, intptlat <chr>, pop10 <chr>, afact <chr>, AFACT2 <chr>
+geocorr::county2010_to_puma2000_pop14
+#> # A tibble: 4,433 × 11
+#>    county state puma2k  stab    cntyname PUMA2kName   intptlon  intptlat
+#>     <chr> <chr>  <chr> <chr>       <chr>      <chr>      <chr>     <chr>
+#> 1   01001    01  02000    AL  Autauga AL    0102000 -86.494186 32.500389
+#> 2   01003    01  02400    AL  Baldwin AL    0102400 -87.762466 30.548923
+#> 3   01005    01  01800    AL  Barbour AL    0101800 -85.309929 31.844037
+#> 4   01007    01  01500    AL     Bibb AL    0101500 -87.127656 33.030921
+#> 5   01009    01  00800    AL   Blount AL    0100800 -86.591401 33.955244
+#> 6   01011    01  01800    AL  Bullock AL    0101800 -85.701197 32.116327
+#> 7   01013    01  01800    AL   Butler AL    0101800 -86.653511 31.773539
+#> 8   01015    01  01100    AL  Calhoun AL    0101100 -85.913387 33.585796
+#> 9   01015    01  01200    AL  Calhoun AL    0101200 -85.819401 33.725465
+#> 10  01017    01  01600    AL Chambers AL    0101600 -85.266519  32.86044
+#> # ... with 4,423 more rows, and 3 more variables: pop14 <chr>,
+#> #   afact <chr>, AFACT2 <chr>
+geocorr::county2010_to_puma2012_pop14
+#> # A tibble: 4,546 × 11
+#>    county state puma12  stab    cntyname
+#>     <chr> <chr>  <chr> <chr>       <chr>
+#> 1   01001    01  02100    AL  Autauga AL
+#> 2   01003    01  02600    AL  Baldwin AL
+#> 3   01005    01  02400    AL  Barbour AL
+#> 4   01007    01  01700    AL     Bibb AL
+#> 5   01009    01  00800    AL   Blount AL
+#> 6   01011    01  02400    AL  Bullock AL
+#> 7   01013    01  02300    AL   Butler AL
+#> 8   01015    01  01100    AL  Calhoun AL
+#> 9   01017    01  01800    AL Chambers AL
+#> 10  01019    01  01000    AL Cherokee AL
+#> # ... with 4,536 more rows, and 6 more variables: PUMAname <chr>,
+#> #   intptlon <chr>, intptlat <chr>, pop14 <chr>, afact <chr>, AFACT2 <chr>
 ```
 
 Reference

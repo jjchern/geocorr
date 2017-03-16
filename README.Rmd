@@ -49,6 +49,8 @@ geocorr::county2010_to_puma2000
 geocorr::county2010_to_puma2012
 geocorr::county2014_to_puma2000
 geocorr::county2014_to_puma2012
+geocorr::county2010_to_puma2000_pop14
+geocorr::county2010_to_puma2012_pop14
 ```
 
 # Reference
