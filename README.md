@@ -131,6 +131,23 @@ geocorr::county2010_to_puma2012_pop14
 #> 10  01019    01  01000    AL Cherokee AL
 #> # ... with 4,536 more rows, and 6 more variables: PUMAname <chr>,
 #> #   intptlon <chr>, intptlat <chr>, pop14 <chr>, afact <chr>, AFACT2 <chr>
+geocorr::puma2000_to_puma2012
+#> # A tibble: 4,444 × 11
+#>    state puma2k puma12  stab
+#>    <chr>  <chr>  <chr> <chr>
+#> 1     01  00100  00100    AL
+#> 2     01  00200  00200    AL
+#> 3     01  00200  00301    AL
+#> 4     01  00200  00302    AL
+#> 5     01  00200  00500    AL
+#> 6     01  00300  00200    AL
+#> 7     01  00300  00301    AL
+#> 8     01  00300  00302    AL
+#> 9     01  00300  00500    AL
+#> 10    01  00400  00400    AL
+#> # ... with 4,434 more rows, and 7 more variables: PUMAname <chr>,
+#> #   PUMA2kName <chr>, intptlon <chr>, intptlat <chr>, pop10 <chr>,
+#> #   afact <chr>, AFACT2 <chr>
 ```
 
 Reference
