@@ -27,3 +27,8 @@
 #'
 #' @source \url{http://mcdc.missouri.edu/websas/geocorr14.html}
 "county2010_to_puma2012_pop14"
+
+#' PUMA00-PUMA12 Crosswalk File
+#'
+#' @source \url{http://mcdc.missouri.edu/websas/geocorr14.html}
+"puma2000_to_puma2012"
