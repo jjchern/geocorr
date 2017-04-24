@@ -7,7 +7,7 @@ About
 
 `geocorr` is an R data package for a set of geographic crosswalk files generated from the Missouri Census Data Center's [**Geo**graphic **Corr**espondence Engine: `MABLE/Geocorr14`](http://mcdc.missouri.edu/websas/geocorr14.html).
 
-So far `geocorr` has seven datasets:
+So far `geocorr` has nine datasets:
 
 -   `geocorr::county2010_to_puma2000`: County10-PUMA00 Crosswalk File
 -   `geocorr::county2010_to_puma2012`: County10-PUMA12 Crosswalk File
@@ -150,6 +150,38 @@ geocorr::puma2000_to_puma2012
 #> # ... with 4,434 more rows, and 7 more variables: PUMAname <chr>,
 #> #   PUMA2kName <chr>, intptlon <chr>, intptlat <chr>, pop10 <chr>,
 #> #   afact <chr>, AFACT2 <chr>
+geocorr::zcta2010_to_puma2000
+#> # A tibble: 44,071 × 11
+#>    zcta5 state puma2k  stab            zipname PUMA2kName   intptlon
+#>    <chr> <chr>  <chr> <chr>              <chr>      <chr>      <chr>
+#> 1  01001    25  01800    MA    Agawam Town, MA    2501800  -72.62239
+#> 2  01002    25  00200    MA Amherst Center, MA    2500200 -72.449974
+#> 3  01002    25  01600    MA Amherst Center, MA    2501600 -72.515165
+#> 4  01003    25  01600    MA Amherst Center, MA    2501600 -72.524677
+#> 5  01005    25  01500    MA          Barre, MA    2501500 -72.110496
+#> 6  01007    25  02000    MA    Belchertown, MA    2502000 -72.409222
+#> 7  01008    25  00200    MA      Blandford, MA    2500200 -72.938224
+#> 8  01009    25  02000    MA    Palmer Town, MA    2502000 -72.341702
+#> 9  01010    25  01500    MA      Brimfield, MA    2501500 -72.202212
+#> 10 01010    25  02100    MA      Brimfield, MA    2502100  -72.15364
+#> # ... with 44,061 more rows, and 4 more variables: intptlat <chr>,
+#> #   pop10 <chr>, afact <chr>, AFACT2 <chr>
+geocorr::zcta2010_to_puma2012
+#> # A tibble: 44,493 × 11
+#>    zcta5 state puma12  stab            zipname
+#>    <chr> <chr>  <chr> <chr>              <chr>
+#> 1  01001    25  01901    MA    Agawam Town, MA
+#> 2  01002    25  00200    MA Amherst Center, MA
+#> 3  01003    25  00200    MA Amherst Center, MA
+#> 4  01005    25  00302    MA          Barre, MA
+#> 5  01007    25  01600    MA    Belchertown, MA
+#> 6  01008    25  01600    MA      Blandford, MA
+#> 7  01009    25  01600    MA    Palmer Town, MA
+#> 8  01010    25  01600    MA      Brimfield, MA
+#> 9  01011    25  00200    MA        Chester, MA
+#> 10 01011    25  01600    MA        Chester, MA
+#> # ... with 44,483 more rows, and 6 more variables: PUMAname <chr>,
+#> #   intptlon <chr>, intptlat <chr>, pop10 <chr>, afact <chr>, AFACT2 <chr>
 ```
 
 Reference

@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 `geocorr` is an R data package for a set of geographic crosswalk files 
 generated from the Missouri Census Data Center's [**Geo**graphic **Corr**espondence Engine: `MABLE/Geocorr14`](http://mcdc.missouri.edu/websas/geocorr14.html). 
 
-So far `geocorr` has seven datasets:
+So far `geocorr` has nine datasets:
 
 - `geocorr::county2010_to_puma2000`: County10-PUMA00 Crosswalk File
 - `geocorr::county2010_to_puma2012`: County10-PUMA12 Crosswalk File
@@ -55,6 +55,8 @@ geocorr::county2014_to_puma2012
 geocorr::county2010_to_puma2000_pop14
 geocorr::county2010_to_puma2012_pop14
 geocorr::puma2000_to_puma2012
+geocorr::zcta2010_to_puma2000
+geocorr::zcta2010_to_puma2012
 ```
 
 # Reference
