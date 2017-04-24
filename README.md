@@ -16,6 +16,8 @@ So far `geocorr` has seven datasets:
 -   `geocorr::county2010_to_puma2000_pop14`: County10-PUMA00 Crosswalk File, with 2014 population as weights
 -   `geocorr::county2010_to_puma2012_pop14`: County10-PUMA12 Crosswalk File, with 2014 population as weights
 -   `geocorr::puma2000_to_puma2012`: PUMA00-PUMA12 Crosswalk File
+-   `geocorr::zcta2010_to_puma2000`: PUMA00-PUMA12 Crosswalk File
+-   `geocorr::zcta2010_to_puma2012`: PUMA00-PUMA12 Crosswalk File
 
 The raw csv files, generated directly from [`MABLE/Geocorr14`](http://mcdc.missouri.edu/websas/geocorr14.html), can be found in the [`\data-raw\` folder](https://github.com/jjchern/geocorr/tree/master/data-raw).
 
