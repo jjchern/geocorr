@@ -1,5 +1,11 @@
 library(dplyr, warn.conflicts = FALSE)
 
+zcta2010_to_usd2010 = readr::read_csv("data-raw/zcta2010_to_usd2010.csv")[-1,]
+labelled::var_label(zcta2010_to_usd2010) = readr::read_csv("data-raw/zcta2010_to_usd2010.csv")[1,]
+
+zcta2010_to_usd2014 = readr::read_csv("data-raw/zcta2010_to_usd2014.csv")[-1,]
+labelled::var_label(zcta2010_to_usd2014) = readr::read_csv("data-raw/zcta2010_to_usd2014.csv")[1,]
+
 county2010_to_puma2000 = readr::read_csv("data-raw/county2010_to_puma2000.csv")[-1,]
 labelled::var_label(county2010_to_puma2000) = readr::read_csv("data-raw/county2010_to_puma2000.csv")[1,]
 
@@ -28,6 +34,8 @@ zcta2010_to_puma2012 = readr::read_csv("data-raw/zcta2010_to_puma2012.csv")[-1,]
 labelled::var_label(zcta2010_to_puma2012) = readr::read_csv("data-raw/zcta2010_to_puma2012.csv")[1,]
 
 devtools::use_data(
+        zcta2010_to_usd2010,
+        zcta2010_to_usd2014,
         county2010_to_puma2000,
         county2010_to_puma2012,
         county2014_to_puma2000,

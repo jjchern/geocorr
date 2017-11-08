@@ -42,3 +42,13 @@
 #'
 #' @source \url{http://mcdc.missouri.edu/websas/geocorr14.html}
 "zcta2010_to_puma2012"
+
+#' ZCTA10-USD10 Crosswalk File
+#'
+#' @source \url{http://mcdc.missouri.edu/websas/geocorr14.html}
+"zcta2010_to_usd2010"
+
+#' ZCTA10-USD14 Crosswalk File
+#'
+#' @source \url{http://mcdc.missouri.edu/websas/geocorr14.html}
+"zcta2010_to_usd2014"
